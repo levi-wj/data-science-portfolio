@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  browser-router:
+    specifier: ^0.2.0
+    version: 0.2.0
   colorthief:
     specifier: ^2.3.0
     version: 2.4.0
@@ -38,6 +41,9 @@ dependencies:
   react-reveal:
     specifier: ^1.2.2
     version: 1.2.2(react@16.14.0)
+  react-router-dom:
+    specifier: ^6.22.3
+    version: 6.22.3(react-dom@16.14.0)(react@16.14.0)
   react-scripts:
     specifier: ^5.0.1
     version: 5.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0)(react@16.14.0)(sass@1.72.0)(typescript@5.4.3)
@@ -2095,6 +2101,11 @@ packages:
       webpack-dev-server: 4.15.2(webpack@5.91.0)
     dev: false
 
+  /@remix-run/router@1.15.3:
+    resolution: {integrity: sha512-Oy8rmScVrVxWZVOpEF57ovlnhpZ8CCPlnIIumVcV9nFdiSIrus99+Lw78ekXyGvVDlIsFJbSfmSovJUhCWYV3w==}
+    engines: {node: '>=14.0.0'}
+    dev: false
+
   /@rollup/plugin-babel@5.3.1(@babel/core@7.24.3)(rollup@2.79.1):
     resolution: {integrity: sha512-WFfdLWU/xVWKeRQnKmIAQULUI7Il0gZnBIH/ZFO069wYIfPu+8zrfp/KMW0atmELoRDq8FbiP3VCss9MhCut7Q==}
     engines: {node: '>= 10.0.0'}
@@ -3518,6 +3529,13 @@ packages:
 
   /browser-process-hrtime@1.0.0:
     resolution: {integrity: sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==}
+    dev: false
+
+  /browser-router@0.2.0:
+    resolution: {integrity: sha512-lBmEZSXzhwO7q12kv0o4/WO6bVayqeHd2ZP0cCszeD9xTEC2fAM+U5BBKG+4yqJHqW//ua+olgPhEWETVjynGQ==}
+    dependencies:
+      query-string: 0.1.1
+      underscore: 1.5.2
     dev: false
 
   /browserslist@4.23.0:
@@ -9015,6 +9033,11 @@ packages:
     engines: {node: '>=0.6'}
     dev: false
 
+  /query-string@0.1.1:
+    resolution: {integrity: sha512-SQ/K9KUsAl2bnieZV2mddfJkw/ea1W6K7zL9dNrpFrE8pkVNXf+AjgvJ4DOjRZ2IrINkPsqwV6x+k0gaVhMFfQ==}
+    engines: {node: '>=0.8.0'}
+    dev: false
+
   /query-string@4.3.4:
     resolution: {integrity: sha512-O2XLNDBIg1DnTOa+2XrIwSiXEV8h2KImXUnjhhn2+UsvZ+Es2uyd5CCRTNQlDGbzUQOW3aYCBx9rVA6dzsiY7Q==}
     engines: {node: '>=0.10.0'}
@@ -9191,6 +9214,29 @@ packages:
       react: ^15.3.0 || ^16.0.0
     dependencies:
       prop-types: 15.8.1
+      react: 16.14.0
+    dev: false
+
+  /react-router-dom@6.22.3(react-dom@16.14.0)(react@16.14.0):
+    resolution: {integrity: sha512-7ZILI7HjcE+p31oQvwbokjk6OA/bnFxrhJ19n82Ex9Ph8fNAq+Hm/7KchpMGlTgWhUxRHMMCut+vEtNpWpowKw==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.15.3
+      react: 16.14.0
+      react-dom: 16.14.0(react@16.14.0)
+      react-router: 6.22.3(react@16.14.0)
+    dev: false
+
+  /react-router@6.22.3(react@16.14.0):
+    resolution: {integrity: sha512-dr2eb3Mj5zK2YISHK++foM9w4eBnO23eKnZEDs7c880P6oKbrjz/Svg9+nxqtHQK+oMW4OtjZca0RqPglXxguQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.15.3
       react: 16.14.0
     dev: false
 
@@ -10686,6 +10732,10 @@ packages:
 
   /underscore@1.12.1:
     resolution: {integrity: sha512-hEQt0+ZLDVUMhebKxL4x1BTtDY7bavVofhZ9KZ4aI26X9SRaE+Y3m83XUL1UP2jn8ynjndwCCpEHdUG+9pP1Tw==}
+    dev: false
+
+  /underscore@1.5.2:
+    resolution: {integrity: sha512-yejOFsRnTJs0N9CK5Apzf6maDO2djxGoLLrlZlvGs2o9ZQuhIhDL18rtFyy4FBIbOkzA6+4hDgXbgz5EvDQCXQ==}
     dev: false
 
   /undici-types@5.26.5:
