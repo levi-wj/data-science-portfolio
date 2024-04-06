@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/data-science-portfolio/static/css/main.8932df29.css",
-    "main.js": "/data-science-portfolio/static/js/main.05867901.js",
+    "main.js": "/data-science-portfolio/static/js/main.6238f129.js",
     "static/css/835.0d13792e.chunk.css": "/data-science-portfolio/static/css/835.0d13792e.chunk.css",
     "static/js/835.f3d02e02.chunk.js": "/data-science-portfolio/static/js/835.f3d02e02.chunk.js",
     "static/css/423.4028adff.chunk.css": "/data-science-portfolio/static/css/423.4028adff.chunk.css",
@@ -22,7 +22,7 @@
     "index.html": "/data-science-portfolio/index.html",
     "static/media/talksCardBack.svg": "/data-science-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.8932df29.css.map": "/data-science-portfolio/static/css/main.8932df29.css.map",
-    "main.05867901.js.map": "/data-science-portfolio/static/js/main.05867901.js.map",
+    "main.6238f129.js.map": "/data-science-portfolio/static/js/main.6238f129.js.map",
     "835.0d13792e.chunk.css.map": "/data-science-portfolio/static/css/835.0d13792e.chunk.css.map",
     "835.f3d02e02.chunk.js.map": "/data-science-portfolio/static/js/835.f3d02e02.chunk.js.map",
     "423.4028adff.chunk.css.map": "/data-science-portfolio/static/css/423.4028adff.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.8932df29.css",
-    "static/js/main.05867901.js"
+    "static/js/main.6238f129.js"
   ]
 }
